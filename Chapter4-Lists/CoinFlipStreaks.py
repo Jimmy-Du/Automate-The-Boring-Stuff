@@ -1,10 +1,3 @@
-# File:        CoinFlipStreaks.py
-# Date:        April 26, 2020
-# Description: Generates 10000 coin flip results and keeps track of how many times a head or tail result appears
-#              6 times in a row 
-
-
-
 import random
 
 

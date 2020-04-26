@@ -1,9 +1,3 @@
-# File:        Collatz.py
-# Date:        April 26, 2020
-# Description: Asks user for an integer input and performs calculations on that number until the result is 1.
-
-
-
 # Function:    collatz()
 # Description: takes in a number divides it by 2 if the number is even, if the number is odd, it is multiplied by 3
 #              and incremented by 1. The result of the calculation is returned.
