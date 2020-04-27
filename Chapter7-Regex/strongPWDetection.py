@@ -12,11 +12,11 @@ def detectStrongPW(password):
     # is set to false to indicate the password is not strong
     if len(password) < 8:
         strongPWStatus = False
-    elif re.search('[a-z]+', password) == None:
+    elif re.search('[a-z]', password) == None:
         strongPWStatus = False
-    elif re.search('[A-Z]+', password) == None:
+    elif re.search('[A-Z]', password) == None:
         strongPWStatus = False
-    elif re.search('[0-9]+', password) == None:
+    elif re.search('[0-9]', password) == None:
         strongPWStatus = False
 
     return strongPWStatus
